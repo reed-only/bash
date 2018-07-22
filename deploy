@@ -3,4 +3,7 @@
 #
 # Usage: ./deploy
 
-cp tweak /usr/local/bin/tweak
+directory="/usr/local/bin"
+
+cp tweak $directory/tweak
+cp tweak $directory/fetch_secret
