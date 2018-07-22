@@ -1,0 +1,7 @@
+# Add, commit, and push all changes in current github directory
+#
+# Usage: ./tweak
+
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+
+git add . && git commit -m 'Tweak' && git push origin $branch_name
