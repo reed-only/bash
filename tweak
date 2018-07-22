@@ -1,3 +1,4 @@
+#! /bin/bash
 # Add, commit, and push all changes in current github directory
 #
 # Usage: ./tweak

@@ -1,0 +1,6 @@
+#! /bin/bash
+# Deploy repo contents to /usr/local/bin/
+#
+# Usage: ./deploy
+
+cp tweak /usr/local/bin/tweak
