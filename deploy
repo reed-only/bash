@@ -6,4 +6,4 @@
 directory="/usr/local/bin"
 
 cp tweak $directory/tweak
-cp tweak $directory/fetch_secret
+cp fetch_secret $directory/fetch_secret
